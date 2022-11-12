@@ -21,7 +21,7 @@ Apache RocketMQ 5.0 版本完成基本消息收发，包括 NameServer、Broker�
 
 ```bash
 ### 首先启动Name Server
-$ nohup sh mqnamesrv &
+$ nohup sh bin/mqnamesrv &
  
 ### 验证Name Server 是否启动成功
 $ tail -f ~/logs/rocketmqlogs/namesrv.log
